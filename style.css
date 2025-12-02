@@ -1,19 +1,22 @@
+ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
 
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
+ol {
+  display: flex;
+  list-style: none;
 }
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-     border: 1px solid black;
+
+.block {
+  display: block;
 }
-nav{
-    display: flex;
-    justify-content: start;
+.box {
+  box-sizing: border-box;
 }
