@@ -8,12 +8,7 @@ ol {
 li {
   border: 2px solid rgb(0, 0, 0);
   padding: .5em;
-}
-.block {
-  display: block;
-}
-.box {
-  box-sizing: border-box;
+  margin-top: 2.5cm;
 }
 h2 {
   display: flex;
@@ -21,10 +16,24 @@ h2 {
   align-items: center;
   font-size: 2.5rem; 
 }
-a { 
-  font-size: 2.5rem;
-  flex-direction:column-reverse;
+#section1{ 
+  font-size: 2rem;
+  margin-top: 3cm;
 }
 footer {
-  gap: 10px 20px;
+  margin-top: 11cm;
+  display: flex;
+  justify-content: flex-end;
 }
+#text1 { 
+  font-size: 1.5rem;
+  margin-top: 2cm;
+}
+#section2 {
+  margin-top: 7cm;
+}
+#footerindex {
+  margin-top: 9cm;
+}
+body.true{ background-color: #48ff00; color: rgb(0, 0, 0); }
+body.wrong{ background-color: #ff0000; color: white; }
