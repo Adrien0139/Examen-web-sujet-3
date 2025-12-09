@@ -2,21 +2,29 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
 .block,
 li {
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 0, 0);
   padding: .5em;
 }
-
-ol {
-  display: flex;
-  list-style: none;
-}
-
 .block {
   display: block;
 }
 .box {
   box-sizing: border-box;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem; 
+}
+a { 
+  font-size: 2.5rem;
+  flex-direction:column-reverse;
+}
+footer {
+  gap: 10px 20px;
 }
